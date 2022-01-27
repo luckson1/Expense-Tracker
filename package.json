@@ -1,0 +1,37 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "Back-end for expense tracker",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "colors": "^1.4.0",
+    "dotenv": "^14.3.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "expense tracker"
+  },
+  "keywords": [
+    "tracker"
+  ],
+  "author": "jack",
+  "license": "MIT"
+}
